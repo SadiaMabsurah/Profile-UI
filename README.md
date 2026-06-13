@@ -1,17 +1,50 @@
-# profile_ui_design
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
 
-A new Flutter project.
+<body style="font-family: Arial, sans-serif; line-height: 1.6;">
 
-## Getting Started
+<h1>📱 Flutter Profile UI</h1>
 
-This project is a starting point for a Flutter application.
+<p><b>Name:</b> Sadia Mabsurah</p>
+<p><b>ID:</b> 232-134-002</p>
 
-A few resources to get you started if this is your first Flutter project:
+<h2>📌 Features</h2>
+<ul>
+  <li>Profile Picture</li>
+  <li>Name & Profession</li>
+  <li>Profile Details (Email, ID, Department, Batch)</li>
+  <li>Statistics (Posts, Followers, Following, Projects)</li>
+  <li>Action Buttons (Follow, Message, Call)</li>
+  <li>About Me Section</li>
+  <li>Dark / Light Mode</li>
+</ul>
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<h2>🧩 How Widgets Were Used</h2>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<ul>
+  <li>Scaffold → Used as the main page structure for the profile screen with AppBar and body.</li>
+
+  <li>AppBar → Used at the top to show back button, title (Profile), search icon, theme toggle, and menu icon.</li>
+
+  <li>Container → Used in multiple places like profile header, stats card, about card, and info cards for styling and background design.</li>
+
+  <li>Padding → Used to give space around the main content inside the profile screen.</li>
+
+  <li>SizedBox → Used to add spacing between UI sections like profile header, name, stats, and buttons.</li>
+
+  <li>Center → Used to center the profile avatar inside the header section.</li>
+
+  <li>Row → Used to arrange items horizontally like stats (Posts, Followers, Following, Projects) and action buttons.</li>
+
+  <li>Column → Used to arrange all sections vertically like profile info, stats, about section, and details.</li>
+
+  <li>Expanded → Used inside Row to make stats and buttons share equal width.</li>
+
+  <li>Stack → Used in ProfileHeader to place background gradient and avatar on top of it.</li>
+
+  <li>setState() → Used to update UI when toggling dark mode and when follow/unfollow button changes follower count.</li>
+</ul>
+</html>
